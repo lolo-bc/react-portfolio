@@ -1,0 +1,36 @@
+[{
+    "id": "01",
+    "title": "My Bookclub",
+    "description": "My Bookclub is a way for you to find ideas for what book to read next. Join an online bookclub and read along with the chosen book or add your own suggestions for what you think the club should read next. You can also create you own bookclub and keep track of all of the books on your reading wishlist. If you're looking for book reccomendations check out our list of top books that users are enjoying this month.",
+    "link": "https://github.com/lolo-bc/BookClub",
+    "image": "https://lolo-bc.github.io/portfolio/Assests/photo/BookClub.png"
+  },
+  {
+    "id": "02",
+    "title": "Donut Eater",
+    "description": "This is a simple one page site that loggs with MySQL, Node, Express, Handlebars and a homemade ORM. Donut Eater uses an MVC design pattern to query and route the donuts, Handlebars to generate HTML, and deployed with Heroku. Donut Eater is a donut shop app that lets users input the names of donuts they'd like to make, and then eat them!!. Whenever a user submits a donuts's name, your app will display the donut on the left side of the page -- waiting to be devoured. Each donut in the waiting area also has a Devour it! button in the shape of a donut. When the user clicks it, the donut will move to the right side of the page, under the list of devoured donuts. The app stores every donut in a database, whether devoured or not.",
+    "link": "https://github.com/lolo-bc/burger-noms",
+    "image": "https://lolo-bc.github.io/portfolio/Assests/photo/DonutEater.png"
+  },  
+  {
+    "id": "03",
+    "title": "Weather Dashbord",
+    "description": "This is a simple web app that can pull information on current and upcoming weather information. The user can search for a city anywhere in the world, and return the weather data for that day as well as the next 5 upcoming days. Additionally, this app currently saves the users most recent search and repopulates the information when the page is reloaded.",
+    "link": "https://github.com/lolo-bc/Weather-App",
+    "image": "https://lolo-bc.github.io/portfolio/Assests/photo/weatherapp.png"
+  },  
+  {
+    "id": "04",
+    "title": "Translator",
+    "description": "A small mobile first application that allows the user to get or enter a random quote and translate it to a fun language of their choice selected from a menu system",
+    "link": "https://github.com/lolo-bc/QuoteConvertor",
+    "image": "https://lolo-bc.github.io/portfolio/Assests/photo/Text%20Translator.png"
+  },  
+  {
+    "id": "05",
+    "title": "Javascript Code Quiz",
+    "description": "More info coming soon",
+    "link": "https://github.com/lolo-bc/JS-Quiz",
+    "image": "https://lolo-bc.github.io/portfolio/Assests/photo/JSQuiz.png"
+  }
+]

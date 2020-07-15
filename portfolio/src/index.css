@@ -1,0 +1,17 @@
+body {
+  margin: 0;
+  font-family: 'Muli', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(14, 5, 48);
+  color: white
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+ul {
+  list-style-type: none;
+}
