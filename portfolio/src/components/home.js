@@ -30,8 +30,9 @@ function Home() {
         <h1 style={hello}>HELLO, MY NAME IS</h1>
         <h1 style={name}>LAUREN CAMERON</h1>
         <p style={p}>
-        I'm a full stack web developer in The Triangle, North Carolina.
+        I'm a full stack web developer based in Raleigh, North Carolina.
         </p>
+        
     </div>
     )};
   

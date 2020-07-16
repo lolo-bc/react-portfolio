@@ -5,14 +5,17 @@ import * as serviceWorker from './serviceWorker';
 import Home from './components/home';
 import Portfolio from './components/portfolio';
 import Skills from './components/skill'
+import Drawer from './components/App'
 import {
   BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
 
+
 ReactDOM.render(
   <React.StrictMode>
+    <Drawer />
     <Router>
     <Switch>
           <Route path="/portfolio">

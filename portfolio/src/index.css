@@ -3,7 +3,7 @@ body {
   font-family: 'Muli', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(14, 5, 48);
+  background-color: rgb(36, 20, 94);
   color: white
 }
 
@@ -14,4 +14,14 @@ code {
 
 ul {
   list-style-type: none;
+}
+
+li {
+  margin: 10px 0;
+
+}
+
+a {
+  text-decoration: none; 
+  font-weight: 500;
 }
