@@ -4,8 +4,10 @@ import './index.css';
 import * as serviceWorker from './serviceWorker';
 import Home from './components/home';
 import Portfolio from './components/portfolio';
-import Skills from './components/skill'
-import Drawer from './components/App'
+import Skills from './components/skill';
+import About from "./components/about";
+import Nav from './components/nav';
+import Contact from "./components/contact"
 import {
   BrowserRouter as Router,
   Switch,
@@ -15,19 +17,25 @@ import {
 
 ReactDOM.render(
   <React.StrictMode>
-    <Drawer />
+    <Nav />
     <Router>
-    <Switch>
+      <Switch>
           <Route path="/portfolio">
             <Portfolio />
           </Route>
           <Route path="/skills">
             <Skills />
           </Route>
+          <Route path="/contact">
+            <Contact />
+          </Route>
+          <Route path="/about">
+            <About />
+          </Route>
           <Route path="/">
             <Home />
           </Route>
-        </Switch>
+      </Switch>
     </Router>
   </React.StrictMode>,
   document.getElementById('root')

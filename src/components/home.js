@@ -1,13 +1,14 @@
 import React from 'react';
-
+import "../index.css"
 function Home() {
 
-    const homeBodyContaier = {
-        padding: "10px",
-        marginTop: "20%",
-        marginLeft: "35px",
-        width: "50%"
-      };
+    // const homeBodyContaier = {
+    //     padding: "10px",
+    //     marginTop: "20%",
+    //     marginLeft: "35px",
+    //     width: "50%",
+    //     zindex: "1"
+    //   };
 
     const name = {
         fontSize: "60px",
@@ -26,14 +27,34 @@ function Home() {
     }
 
     return (
-    <div style={homeBodyContaier}>
+        <>
+    <div className="homeBodyContaier">
         <h1 style={hello}>HELLO, MY NAME IS</h1>
         <h1 style={name}>LAUREN CAMERON</h1>
         <p style={p}>
         I'm a full stack web developer based in Raleigh, North Carolina.
         </p>
+        </div>
+
+        <div class="stars"></div>
+        <div class="twinkling"></div>
+        <div class="clouds"></div> 
+         {/* <div className="Jumbotron"> */}
+          {/* <ul className="circles">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+          </ul>
+        </div>  */}
+        </>
         
-    </div>
     )};
   
   export default Home;

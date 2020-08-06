@@ -6,8 +6,12 @@ import Grid from '@material-ui/core/Grid';
 const useStyles = makeStyles((theme) => ({
   root: {
     flexGrow: 1,
-    marginTop: "15%",
-    margin: "20px"
+    paddingTop: "15%",
+    // margin: "20px",
+    overflow: 'hide',
+    paddingRight: "30px",
+    paddingLeft: "30px",
+    marginBottom: "0px"
   },
   paper: {
     padding: theme.spacing(2),
@@ -22,7 +26,7 @@ const useStyles = makeStyles((theme) => ({
       fontWeight: "400",
       letterSpacing: "0.5px",
       textTransform: "uppercase",
-      borderBottom: "1px solid #000",
+      borderBottom: "1px solid #242142",
       paddingBottom: "5px"
   }
 }));
@@ -36,7 +40,7 @@ export default function CenteredGrid() {
         <br></br>
       <Grid container spacing={3}>
         <Grid item xs={3}>
-          <Paper className={classes.paper}>
+          {/* <Paper className={classes.paper}> */}
           <h3 className={classes.sectionTitle} >Server Side Development</h3>
                 <ul>
                     <li>MongoDB</li>
@@ -48,11 +52,11 @@ export default function CenteredGrid() {
                     <li>PWA/Service Workers</li>
                     <li>MERN Stack </li>
                 </ul>
-          </Paper>
+          {/* </Paper> */}
         </Grid>
         <Grid item xs={3}>
-          <Paper className={classes.paper}>
-                <h3 className={classes.sectionTitle} >Browser Based Technologies</h3>
+          {/* <Paper className={classes.paper}> */}
+                <h3 className={classes.sectionTitle} >Technologies</h3>
                 <ul>
                     <li>HTML</li>
                     <li>CSS</li>
@@ -64,11 +68,11 @@ export default function CenteredGrid() {
                     <li>Bootstrap & Materialize frameworks</li>
                     <li>Webpack</li>
                 </ul>
-          </Paper>
+          {/* </Paper> */}
         </Grid>
         <Grid item xs={3}>
-          <Paper className={classes.paper}>
-          <h3 className={classes.sectionTitle} >Design Skills Technologies</h3>
+          {/* <Paper className={classes.paper}> */}
+          <h3 className={classes.sectionTitle} >Design Skills & Technologies</h3>
                 <ul>
                     <li>Adobe (Photoshop, Illustrator, Xd)</li>
                     <li>Responsive Design</li>
@@ -76,10 +80,10 @@ export default function CenteredGrid() {
                     <li>Branding</li>
                     <li>wireframes, prototyping</li>
                 </ul>
-          </Paper>
+          {/* </Paper> */}
         </Grid>
         <Grid item xs={3}>
-          <Paper className={classes.paper}>
+          {/* <Paper className={classes.paper}> */}
           <h3 className={classes.sectionTitle} >Additionally</h3>
                 <ul>
                     <li>Rest</li>
@@ -88,7 +92,7 @@ export default function CenteredGrid() {
                     <li>Agile workflows</li>
                     <li>Unit & Functional Testing</li>
                 </ul>
-          </Paper>
+          {/* </Paper> */}
         </Grid>
       </Grid>
     </div>

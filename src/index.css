@@ -3,10 +3,18 @@ body {
   font-family: 'Muli', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: rgb(36, 20, 94);
-  color: white
+  /* background-color: rgb(90, 80, 143); */
+  background: linear-gradient(#242142,#4a4683 );
+  color: white;
+  height: 100vh;
+  overflow: scroll;
 }
-
+.homeBodyContaier{
+  padding: 10px;
+  margin-Top: 15%;
+  margin-Left: 35px;
+  width: 50%;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -25,4 +33,117 @@ a {
   text-decoration: none; 
   font-weight: 500;
 }
-/* commment */
+
+.heading {
+  font-weight: 900;
+  letter-spacing: 2px;
+  /* paddingLeft: "17px", */
+  text-transform: uppercase;
+}
+
+/* Nav Menu Styles */
+.MuiDrawer-paperAnchorRight {
+  background-color: #242142 !important;
+}
+
+.MuiDrawer-paperAnchorRight a {
+  color: white !important;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.MuiDrawer-paperAnchorRight a:hover {
+  color:#3f51b5!important;
+}
+
+.menuIcon{
+  text-align: right;
+  /* color: rgb(115, 102, 139); */
+}
+
+.MuiSvgIcon-fontSizeLarge {
+  color: white;
+}
+.MuiSvgIcon-fontSizeLarge:hover{
+  color:#3f51b5!important;
+}
+
+#bottomIcon{
+  top: 23em;
+  display: inline;
+  margin-left: 28px;
+}
+.MuiSvgIcon-root{
+  font-size: 2.5rem !important;
+}
+
+
+/* Portfolio Styles */
+
+#descrip{
+  font-weight: 200;
+  font-style: italic;
+  letter-spacing: .2px;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 1.3em;
+  font-weight: 900;
+}
+
+.sectionTitle {
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  border-bottom: 1px solid #000;
+  padding-bottom: 5px;
+}
+
+.iconLink{
+  margin: 5px !important;
+}
+.Portfolio > .MuiGrid-item {
+  margin-bottom: 100px;
+  margin-top: 80px;
+}
+
+ .Portfolio  > .MuiGrid-item {
+  margin-bottom: 100px;
+}
+.Portfolio  > .MuiGrid-item {
+  margin-bottom: 100px;
+}
+.Portfolio  > .MuiGrid-item {
+  margin-bottom: 100px;
+}
+.Portfolio  > .MuiGrid-item {
+  margin-bottom: 100px;
+}
+.Portfolio  > .MuiGrid-item {
+  margin-bottom: 100px;
+}
+
+.MuiFab-root {
+  background-color:#242142!important;
+  color: white !important;
+}
+.MuiFab-root:hover {
+  background-color:#3f51b5!important;
+}
+
+/* Contact Pg Styles */
+
+.MuiFormControl-root{
+  width: 100%;
+}
+
+#sendBtn{
+  margin-top: 35px !important;
+  margin-left: 45% !important;
+}
+
+
