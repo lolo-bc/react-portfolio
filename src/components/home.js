@@ -26,6 +26,8 @@ function Home() {
         fontSize: "27px"
     }
 
+
+
     return (
         <>
     <div className="homeBodyContaier">
