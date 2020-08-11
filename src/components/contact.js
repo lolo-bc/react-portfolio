@@ -88,6 +88,9 @@ function Contact() {
     return (
       <main className="homeBodyContaier">
       <h1 className="heading" >Get in Touch</h1>
+      <p>I'm interested in web developer or freelance opportunities.
+       However, if you have any questions don't hesitate to reach out! 
+       Email is the fastest way to get a response, <a href = "mailto: lauren.n.cameron@gmail.com">lauren.n.cameron@gmail.com</a> or just fill out the form!</p>
       <Snackbar open={open} autoHideDuration={6000} onClose={handleClose}>
         <Alert onClose={handleClose} severity="success">
           Thanks for the Message! I'll get back to you shortly

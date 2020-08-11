@@ -6,6 +6,8 @@ import LaunchOutlinedIcon from '@material-ui/icons/LaunchOutlined';
 import CodeOutlinedIcon from '@material-ui/icons/CodeOutlined';
 import Fade from '@material-ui/core/Fade';
 import Grow from '@material-ui/core/Grow';
+import GitHubIcon from '@material-ui/icons/GitHub';
+
 
 // import Image from 'material-ui-image';
 
@@ -99,7 +101,7 @@ const useStyles = makeStyles((theme) => ({
                 MERN Stack (Mongo, Express, React, Node), Firebase, OTP, Cloudinary, Google Maps, EmailJS, Heroku, HTML, CSS, ES6, Adobe Creative Suite, Robo 3T, Bootstrap
                </p>
                   <Fab className="iconLink" href="//radiant-coast-84828.herokuapp.com/" aria-label="edit"><LaunchOutlinedIcon /> </Fab> 
-                  <Fab className="iconLink" href="//github.com/lolo-bc/Lokal" aria-label="edit"><CodeOutlinedIcon /> </Fab> 
+                  <Fab className="iconLink" href="//github.com/lolo-bc/Lokal" aria-label="edit"><GitHubIcon /> </Fab> 
             </div>
 
           </Grid>
@@ -128,7 +130,7 @@ const useStyles = makeStyles((theme) => ({
                   MySQL, jQuery, Node.js, New York Times API, Google Books, Heroku, HTML, CSS, ES6, Adobe XD wireframes, MySQLWorkbench, Materialize CSS framework
                 </p>
                   <Fab className="iconLink" href="//book-club-application.herokuapp.com" aria-label="edit"><LaunchOutlinedIcon /> </Fab> 
-                  <Fab className="iconLink" href="//github.com/lolo-bc/BookClub" aria-label="edit"><CodeOutlinedIcon /> </Fab> 
+                  <Fab className="iconLink" href="//github.com/lolo-bc/BookClub" aria-label="edit"><GitHubIcon /> </Fab> 
   
             </div>
 
@@ -156,7 +158,7 @@ const useStyles = makeStyles((theme) => ({
               HTML, CSS, ES6, MongoDB, Indexdd, Express, Morgan, Mongoose, Webpack (WebpackPwaManifest & babel-loader)
                 </p>
                   <Fab className="iconLink" href="//wpa-budget-app.herokuapp.com/" aria-label="edit"><LaunchOutlinedIcon /> </Fab> 
-                  <Fab className="iconLink" href="//github.com/lolo-bc/Budget-Tracker" aria-label="edit"><CodeOutlinedIcon /> </Fab> 
+                  <Fab className="iconLink" href="//github.com/lolo-bc/Budget-Tracker" aria-label="edit"><GitHubIcon /> </Fab> 
   
             </div>
 
@@ -186,7 +188,7 @@ const useStyles = makeStyles((theme) => ({
                 MySQL, Node.js, Handlebars, Heroku, HTML, CSS, ES6, Adobe Illustrator
                </p>
                   <Fab className="iconLink" href="//rocky-earth-61463.herokuapp.com" aria-label="edit"><LaunchOutlinedIcon /> </Fab> 
-                  <Fab className="iconLink" href="//github.com/lolo-bc/donut-eater" aria-label="edit"><CodeOutlinedIcon /> </Fab> 
+                  <Fab className="iconLink" href="//github.com/lolo-bc/donut-eater" aria-label="edit"><GitHubIcon /> </Fab> 
             </div>
 
           </Grid>
@@ -214,7 +216,7 @@ const useStyles = makeStyles((theme) => ({
                 Session Storage, Node.js, jQuery, HTML, CSS, ES6
                </p>
                   <Fab className="iconLink" href="//lolo-bc.github.io/Weather-App/" aria-label="edit"><LaunchOutlinedIcon /> </Fab> 
-                  <Fab className="iconLink" href="//github.com/lolo-bc/Weather-App" aria-label="edit"><CodeOutlinedIcon /> </Fab> 
+                  <Fab className="iconLink" href="//github.com/lolo-bc/Weather-App" aria-label="edit"><GitHubIcon /> </Fab> 
             </div>
 
           </Grid>
@@ -242,7 +244,7 @@ const useStyles = makeStyles((theme) => ({
                 Fun Translations API, Moment.JS API, Node.js, jQuery, HTML, CSS, ES6, Materialize Framework
                </p>
                   <Fab className="iconLink" href="//saunderseddie.github.io/QuoteConvertor/index.html" aria-label="edit"><LaunchOutlinedIcon /> </Fab> 
-                  <Fab className="iconLink" href="//github.com/lolo-bc/QuoteConvertor" aria-label="edit"><CodeOutlinedIcon /> </Fab> 
+                  <Fab className="iconLink" href="//github.com/lolo-bc/QuoteConvertor" aria-label="edit"><GitHubIcon /> </Fab> 
             </div>
 
           </Grid>
@@ -270,7 +272,7 @@ const useStyles = makeStyles((theme) => ({
                 MomentJS, HTML, CSS, ES6,
                </p>
                   <Fab className="iconLink" href="//lolo-bc.github.io/JS-Quiz/Index.html" aria-label="edit"><LaunchOutlinedIcon /> </Fab> 
-                  <Fab className="iconLink" href="//github.com/lolo-bc/JS-Quiz" aria-label="edit"><CodeOutlinedIcon /> </Fab> 
+                  <Fab className="iconLink" href="//github.com/lolo-bc/JS-Quiz" aria-label="edit"><GitHubIcon /> </Fab> 
             </div>
 
           </Grid>
